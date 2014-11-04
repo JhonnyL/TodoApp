@@ -1,0 +1,36 @@
+<!doctype html>
+<html class="no-js" lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/style.min.css">
+  </head>
+  <body>
+
+    <div class="container">
+      <table class="table table-striped">
+        <tbody class="list"></tbody>
+      </table>
+    </div>
+
+    <script data-main="/js/main" src="//cdnjs.cloudflare.com/ajax/libs/require.js/2.1.15/require.min.js"></script>
+    <script id="item-tmpl" type="text/template">
+      <tr class="item" id="<%- id %>">
+        <td class="col-checked">
+          <input type="checkbox"<%if (checked === true) { print(' checked') }%>>
+        </td>
+        <td class="col-title">
+          <%- title %>
+        </td>
+        <td class="col-prio">
+          <img src="/images/<%- prio %>.png" alt="<%- prio %>" />
+        </td>
+      </tr>
+    </script>
+  </body>
+</html>

@@ -1,0 +1,7 @@
+[
+	{ "id": 1, "prio": "high", "title": "Buy ice cream", "checked": false },
+	{ "id": 2, "prio": "high", "title": "Plan meeting with Joy", "checked": true },
+	{ "id": 3, "prio": "normal", "title": "Workout", "checked": false },
+	{ "id": 4, "prio": "normal", "title": "Open a new account", "checked": false },
+	{ "id": 5, "prio": "low", "title": "Write in my journal", "checked": false }
+]

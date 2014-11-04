@@ -1,0 +1,16 @@
+{
+  "name": "app",
+  "description": "app",
+  "version": "1.0.0",
+  "private": true,
+  "devDependencies": {
+    "less": "~1.5.1",
+    "grunt": "~0.4.2",
+    "grunt-cli": "~0.1.11",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-copy": "~0.4.1",
+    "grunt-contrib-less": "~0.8.3",
+    "grunt-contrib-cssmin": "~0.7.0",
+    "grunt-contrib-watch": "~0.5.3"
+  }
+}
